@@ -1,0 +1,2 @@
+# hotelManagementSystem
+基于vue和element-ui搭建的酒店管理平台
