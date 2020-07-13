@@ -22,23 +22,10 @@ export function sign (userform) {
     data: userform
   })
 }
-export function logout () {
+export function logout (userDate) {
   return request({
     url: '/user/logout',
-    method: 'post'
-  })
-}
-export function getUser () {
-  return request({
-    url: 'http://www.pxiou.club/wuling/user',
-    method: 'get'
-  })
-}
-
-export function deleteUser (advert) {
-  return request({
-    url: 'http://www.pxiou.club/wuling/deleteUser',
     method: 'post',
-    data: advert
+    data: userDate
   })
 }
